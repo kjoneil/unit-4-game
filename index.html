@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal_Collector</title>
+    <link rel="stylesheet" type= "text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type= "text/css" href="./assets/css/reset.css">
+</head>
+<body>
+    <header>
+    </header>
+    <div class="gamename">
+        Crystal Collector!
+        </div>
+    <div class="play">
+        <p id="how">How to play:</p>
+        <hr>
+        <p>1. You will be given a random number at the start of the game.</p>
+        
+        <p>2. There are four crystals below. By clicking on a crystal you will 
+            add a specific amount of points to your total score.</p>
+        
+        <p>3. You win the game by matching your total score to the random number, 
+            you lose if your total score goes above the random number.</p>
+        
+        <p>4. The value of each crystal is hidden from until clicked on</p>
+        
+        <p>5. Each time the game starts, it will change the value of each crystal</p>
+    </div>
+    
+    <div class=flex-container1>
+        <div id='randomNum'>Number of Crystals to collect: <span id="random-number"></span></span></div>
+        <div id="counters">
+            <p id="win">Your</p>
+            <p id="lose">Record.</p>
+        </div>    
+            <!-- layout = random # | wins/loses:counter -->
+    </div>
+    
+    <div class=flex-container2>
+        <div id="red"><img class="crystals one" src="./assets/images/ruby.png" alt="ruby"></div>
+        <div id="blue"><img class="crystals two" src="./assets/images/diamond.png" alt="diamond"></div>
+        <div id="green"><img class="crystals three" src="./assets/images/emerald.png"></div>
+        <div id="yellow"><img class="crystals four" src="./assets/images/topaz.png"></div> 
+           <!-- four gems:same size, spaced equally apart in a row, different values everythime -->
+    </div>
+    
+    <div class="scoreBoard">
+        <p>Total score:</p>
+    </div>
+    
+    <div>
+        <p id="total"></p>
+        <!-- Total score counter -->
+    </div>
+    
+    <script type= "text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <script type= "text/javascript" src="./assets/javascript/game.js"></script>
+
+
+</body>
+</html>

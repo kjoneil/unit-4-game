@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    background: url("../images/sand.png");
+    background-size: 100%,100%;
+    
+    /* change the entire pages background color and image */
+}
+
+.gamename{
+    height: 70px;width: 250px;
+    border: solid; border-color:black;
+    background-color:antiquewhite; color: black;
+    font-size: 32px; font-family: cursive; text-align: center;
+    margin-top:10px; margin-bottom: 10px;margin-left: 35%; 
+}
+
+.play{height: 300px; width: 500px;
+    border: solid; border-color: black;
+    background-color: antiquewhite; color: black;
+    line-height: 160%; font-size: 16px;
+    margin-top: 10px; margin-bottom: 10px; margin-left: 20%; 
+    padding: 15px; 
+}
+
+#how{
+    color: black;
+    font-size: 28px; font-weight: bold;
+    margin: 10px;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;margin-left: 20%;
+}
+#randomNum{
+    height: 50px;
+    flex-basis: 150px;
+    background-color: lightgray; color: black;
+    border: solid; border-color: black;
+    line-height: 120%;
+    font-size: 18px;text-align: center;
+    margin-right: 10px;margin-left: 20%;
+}
+#counters{
+    height: 50px;
+    flex-basis: 80px; line-height: 120%;
+    border: solid; border-color: black;
+    background-color: lightblue; color: black;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;margin-bottom: 10px;margin-left: 30%;
+}
+.crystals{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.scoreBoard{
+    height: 20px;width: 250px;
+    border: solid; border-color: black;
+    background-color: antiquewhite; color:black;
+    font-size: 16px;text-align: center;
+    margin:10px; padding-top: 10px;
+    margin-top: 10px; margin-bottom: 10px;margin-left: 35%; 
+}
+#total{
+    height: 60px;width: 250px;
+    background: url("../images/backdrop.png"); 
+    background-size: 100%;
+    color: black;
+    font-size: 32px;text-align: center;
+    margin-top: 10px; margin-bottom: 10px;margin-left: 35%; 
+    padding-top: 15px;
+
+}
