@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var randomNum = (Math.floor(Math.random()*121+19));
 $("#random-number").text(randomNum);
  
@@ -113,4 +115,4 @@ $('.four').on('click', function(){
     document.getElementById("lose").innerHTML ="Loses: "+ loses;
 
 });
-
+})
