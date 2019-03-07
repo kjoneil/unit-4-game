@@ -77,3 +77,15 @@ body{
     padding-top: 15px;
 
 }
+#red:hover{
+    background-color: red;
+}
+#blue:hover{
+    background-color: aqua;
+}
+#green:hover{
+    background-color:  rgb(100, 202, 100);
+}
+#yellow:hover{
+    background-color: rgb(216, 240, 8);
+}
